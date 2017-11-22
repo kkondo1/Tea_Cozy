@@ -1,0 +1,193 @@
+body{
+    font-family: Helvetica;
+    background-color: black;
+    margin: 0;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    padding-top: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav_container{
+    max-width: 1200px;
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav a{
+    font-size: 22px;
+    color: seashell;
+    margin: 10px;
+}
+
+nav {
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+#logo {
+    height: 50px;
+    background-image: url(Resources/img-tea-cozy-logo.png);
+    width:180px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    height:700px;
+    background-image: url(Resources/img-mission-background.jpg);
+    top: 69px;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1,
+header p{
+    background-color: black;
+    margin: 0;
+}
+
+
+.stripe {
+    background-color: black;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color:seashell
+}
+
+p{
+    color: seashell;
+    font-family: helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin: 0;
+}
+
+.tea {
+    display: flex;
+    height: 270px;
+    width: 300px;
+    background-color: black;
+    margin-bottom: 40px;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+h2{
+    background-color: black;
+    line-height: 3;
+    width: 100%;
+    margin: 0;
+    color: seashell;
+
+}
+
+.tea_selection_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box1{
+    background-image: url(Resources/img-berryblitz.jpg);
+    background-size: contain;
+}
+
+.box2{
+    background-image: url(Resources/img-spiced-rum.jpg);
+    background-size: contain;
+}
+
+.box3{
+    background-image: url(Resources/img-donut.jpg);
+    background-size: contain;
+}
+
+.box4{
+    background-image: url(Resources/img-myrtle-ave.jpg);
+    background-size: contain;
+}
+
+.box5{
+    background-image: url(Resources/img-bedford-bizarre.jpg);
+    background-size: contain;
+}
+
+.locations_container{
+    background-image: url(Resources/img-locations-background.jpg);
+    display:flex;
+    flex-direction: row;
+    height:500px;
+    top: 69px;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.location{
+    height:250px;
+    width:250px;
+    margin: 20px;
+    background-color: black;
+    flex-shrink: 2;
+}
+
+.location h1{
+    margin: 0;
+}
+
+
+
+.full_width{
+    width:100%;
+}
+
+footer{
+    text-align: center;
+    margin: 40px auto;
+    height: 200px;
+    width: 100%;
+
+    margin-top: 200px;
+}
